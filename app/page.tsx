@@ -14,26 +14,39 @@ export default function Home() {
         </div>
       </header>
 
-      {/* ヒーローセクション */}
+      {/* ヒーローセクション - ブランドストーリーとUSPを統合 */}
       <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black pt-20">
         <div className="container mx-auto px-6 py-20 max-w-6xl">
           <div className="text-center mb-12">
             <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-white bg-clip-text text-transparent">
               Pick up lab
-          </h1>
+            </h1>
             <p className="text-2xl md:text-3xl text-gray-300 mb-4">
               AIと人間のハイブリッドナンパコーチング
             </p>
-            <p className="text-lg md:text-xl text-gray-400 mb-8">
+            <p className="text-lg md:text-xl text-gray-400 mb-6">
               24時間365日、AIコーチングがあなたの上達をサポート
             </p>
+            
+            {/* ブランドストーリーの要素を追加 */}
+            <div className="max-w-3xl mx-auto mb-8">
+              <p className="text-gray-300 leading-relaxed mb-4">
+                創設者も最初は全く声をかけられませんでした。しかし、試行錯誤を重ね、ナンパ講師として200名以上を指導する中で気づいたことがあります。
+              </p>
+              <p className="text-xl font-semibold text-white mb-4">
+                「多くの人が同じ壁にぶつかっている。でも、適切なサポートがあれば、誰でも必ず上達できる」
+              </p>
+              <p className="text-gray-300 leading-relaxed">
+                そこで生まれたのが、<strong className="text-white">AIと人間のハイブリッドコーチング</strong>。AIが24時間365日サポートし、人間講師が深いサポートを提供する。この組み合わせで、誰でも確実に上達できる環境を作りました。
+              </p>
+            </div>
           </div>
 
           {/* 実績バッジ */}
           <div className="text-center mb-8">
             <div className="inline-flex items-center gap-2 bg-gray-900 px-4 py-2 rounded-full border border-gray-700">
               <span className="text-green-400">✓</span>
-              <span className="text-sm">累計500名以上が成功を実現</span>
+              <span className="text-sm">累計500名以上が成功を実現 | 成功率87% | 創設者実績: 渋谷で美女ナンパ成功率100%</span>
             </div>
           </div>
 
@@ -61,12 +74,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 現状維持の恐怖セクション（SendRightスタイル） */}
+      {/* 現状維持の恐怖セクション - USPの要素を追加 */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             現状維持に身を任せるのか、それとも
           </h2>
+          <p className="text-center text-gray-400 mb-12 text-lg">
+            創設者も最初は同じ悩みを抱えていました。でも、AIと人間のハイブリッドコーチングで、確実に上達できる環境を作りました。
+          </p>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-red-900/20 border border-red-800/50 p-8 rounded-xl">
               <h3 className="text-2xl font-bold mb-4 text-red-400">このまま何もしなければ</h3>
@@ -94,19 +110,19 @@ export default function Home() {
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start gap-2">
                   <span className="text-green-400">✓</span>
-                  <span>声をかけることへの恐怖から解放される</span>
+                  <span>24時間365日、AIコーチングがサポート（Pick up labのUSP）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400">✓</span>
-                  <span>理想の女性との距離が縮まる</span>
+                  <span>AI数値分析で、データに基づいた改善（Pick up labのUSP）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400">✓</span>
-                  <span>ナンパでの成功体験が積み重なる</span>
+                  <span>体系的な学習サイクルで、確実に上達（Pick up labのUSP）</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400">✓</span>
-                  <span>自信が取り戻せる</span>
+                  <span>コミュニティで、仲間と一緒に成長（Pick up labのUSP）</span>
                 </li>
               </ul>
             </div>
@@ -122,13 +138,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 実績・統計データセクション */}
+      {/* 実績・統計データセクション - ブランドストーリーの要素を追加 */}
       <section className="py-20 bg-black">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             圧倒的な実績データ
           </h2>
-          <div className="grid md:grid-cols-4 gap-6">
+          <p className="text-center text-gray-400 mb-12 text-lg">
+            創設者が200名以上を指導し、70%以上が3ヶ月以内に成果を実現。その経験と実績が、Pick up labの基盤となっています。
+          </p>
+          <div className="grid md:grid-cols-4 gap-6 mb-8">
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-700 text-center">
               <div className="text-4xl font-bold text-white mb-2">500名+</div>
               <div className="text-gray-400">累計利用者数</div>
@@ -146,10 +165,15 @@ export default function Home() {
               <div className="text-gray-400">顧客満足度</div>
             </div>
           </div>
+          <div className="bg-gray-900 p-6 rounded-xl border border-gray-700 text-center">
+            <p className="text-gray-300">
+              <strong className="text-white">創設者実績:</strong> 渋谷で美女ナンパ成功率100% | 講習受講者数200名以上 | 3ヶ月以内に彼女ができた割合70%以上
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* ブランドストーリーセクション */}
+      {/* ブランドストーリーセクション - より詳しく */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-6 max-w-6xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
@@ -230,14 +254,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* USPセクション */}
+      {/* USPセクション - より詳しく、ブランドストーリーと統合 */}
       <section className="py-20 bg-black">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             Pick up labで得られるもの
           </h2>
-          <p className="text-center text-gray-400 mb-16 text-lg">
-            なぜPick up labが選ばれるのか。4つの独自の価値をご紹介します。
+          <p className="text-center text-gray-400 mb-4 text-lg">
+            創設者の経験と実績から生まれた、4つの独自の価値
+          </p>
+          <p className="text-center text-gray-500 mb-16 text-sm">
+            講習だけでは限界があった。実践の場面で迷ったとき、深夜に振り返りたいと思ったとき、すぐにサポートを受けられる環境が必要だった。そんな想いから生まれたのが、これらのUSPです。
           </p>
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -325,6 +352,9 @@ export default function Home() {
           {/* なぜPick up labなのか - まとめ */}
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-xl border border-gray-700 mt-12">
             <h3 className="text-2xl font-bold mb-4 text-center">なぜPick up labなのか？</h3>
+            <p className="text-center text-gray-400 mb-6">
+              創設者が200名以上を指導する中で気づいた、従来のナンパスクールの限界。それを解決するために生まれたのがPick up labです。
+            </p>
             <div className="grid md:grid-cols-2 gap-6 mt-6">
               <div>
                 <h4 className="font-bold text-lg mb-3 text-white">従来のナンパスクール</h4>
@@ -382,12 +412,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ソーシャルプルーフ（顧客の声）セクション */}
+      {/* ソーシャルプルーフ（顧客の声）セクション - USPの要素を追加 */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             受講生の声
           </h2>
+          <p className="text-center text-gray-400 mb-12 text-lg">
+            Pick up labのUSPを実感した受講生の声です。AIと人間のハイブリッドコーチング、AI数値分析、体系的な学習サイクル、コミュニティ機能。これらの価値を実感しています。
+          </p>
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
@@ -401,9 +434,10 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed mb-4">
-                「3ヶ月で10名の連絡先を獲得できました。AIコーチングのおかげで、確実にスキルが向上しました。声をかけることへの恐怖がなくなり、ナンパでの成功体験が増えました。」
+                「3ヶ月で10名の連絡先を獲得できました。AIコーチングのおかげで、確実にスキルが向上しました。深夜2時に実践したことを振り返りたいと思ったとき、AIコーチングが24時間対応してくれたおかげで、その日のうちに改善できました。」
               </p>
-              <div className="text-yellow-400">★★★★★</div>
+              <div className="text-yellow-400 mb-2">★★★★★</div>
+              <p className="text-xs text-gray-500">USP: AIと人間のハイブリッドコーチング</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
@@ -417,9 +451,10 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed mb-4">
-                「判断の軸が分かるようになりました。以前は、声をかけることすらできませんでしたが、Pick up labを使うようになってから、自信を持って声をかけられるようになりました。3ヶ月で5名の連絡先を獲得できました。」
+                「判断の軸が分かるようになりました。以前は、声をかけることすらできませんでしたが、Pick up labを使うようになってから、AI数値分析のおかげで、データに基づいた改善ができるようになりました。3ヶ月で5名の連絡先を獲得できました。」
               </p>
-              <div className="text-yellow-400">★★★★★</div>
+              <div className="text-yellow-400 mb-2">★★★★★</div>
+              <p className="text-xs text-gray-500">USP: AI数値分析と改善アクション</p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-xl border border-gray-700">
@@ -433,20 +468,24 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed mb-4">
-                「自信が取り戻せました。ナンパでの成功体験が積み重なり、理想の女性との関係を築けるようになりました。30日間の成果保証も安心でした。」
+                「自信が取り戻せました。ナンパでの成功体験が積み重なり、理想の女性との関係を築けるようになりました。コミュニティ機能で、仲間と一緒に成長できたのが大きかったです。30日間の成果保証も安心でした。」
               </p>
-              <div className="text-yellow-400">★★★★★</div>
+              <div className="text-yellow-400 mb-2">★★★★★</div>
+              <p className="text-xs text-gray-500">USP: コミュニティ機能</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 特典セクション */}
+      {/* 特典セクション - ブランドストーリーの要素を追加 */}
       <section className="py-20 bg-black">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             今だけの特別特典
           </h2>
+          <p className="text-center text-gray-400 mb-4 text-lg">
+            創設者が200名以上を指導する中で培った「秘密のナンパ術」を、特典として無料でプレゼントします。
+          </p>
           <div className="bg-gradient-to-br from-yellow-900/30 to-yellow-800/30 border border-yellow-700/50 p-8 rounded-xl">
             <p className="text-center text-2xl font-bold mb-8">
               総額26万円相当の特典を無料でプレゼント
@@ -455,17 +494,20 @@ export default function Home() {
               <div className="bg-gray-900 p-6 rounded-lg border border-gray-700">
                 <div className="text-3xl mb-3">📚</div>
                 <h3 className="text-xl font-bold mb-2">無料PDF「ナンパ成功の7つのルール」</h3>
-                <p className="text-gray-400 text-sm">通常¥3,000相当</p>
+                <p className="text-gray-400 text-sm mb-2">通常¥3,000相当</p>
+                <p className="text-xs text-gray-500">創設者が200名以上を指導する中で見つけた、成功のための7つのルール</p>
               </div>
               <div className="bg-gray-900 p-6 rounded-lg border border-gray-700">
                 <div className="text-3xl mb-3">🎥</div>
                 <h3 className="text-xl font-bold mb-2">無料動画「AIコーチング活用法」</h3>
-                <p className="text-gray-400 text-sm">通常¥5,000相当</p>
+                <p className="text-gray-400 text-sm mb-2">通常¥5,000相当</p>
+                <p className="text-xs text-gray-500">24時間365日、AIコーチングを最大限に活用する方法</p>
               </div>
               <div className="bg-gray-900 p-6 rounded-lg border border-gray-700">
                 <div className="text-3xl mb-3">👥</div>
                 <h3 className="text-xl font-bold mb-2">コミュニティへの優先参加権</h3>
-                <p className="text-gray-400 text-sm">通常¥18,000相当</p>
+                <p className="text-gray-400 text-sm mb-2">通常¥18,000相当</p>
+                <p className="text-xs text-gray-500">同じ目標を持つ仲間と一緒に成長できる環境</p>
               </div>
             </div>
             <p className="text-center text-gray-400 mt-6 text-sm">
@@ -475,12 +517,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 保証セクション */}
+      {/* 保証セクション - ブランドストーリーの要素を追加 */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             安心の保証制度
           </h2>
+          <p className="text-center text-gray-400 mb-12 text-lg">
+            創設者が200名以上を指導する中で、98%の受講生が成果を実感しています。その実績に基づいた保証制度です。
+          </p>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-gradient-to-br from-green-900 to-green-800 p-8 rounded-xl border border-green-700">
@@ -512,39 +557,42 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQセクション */}
+      {/* FAQセクション - USPとブランドストーリーの要素を追加 */}
       <section className="py-20 bg-black">
         <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             よくある質問
           </h2>
+          <p className="text-center text-gray-400 mb-12 text-lg">
+            Pick up labのUSPとブランドストーリーに関するよくある質問です。
+          </p>
 
           <div className="space-y-6">
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
               <h3 className="text-xl font-bold mb-3">Q: 39.8万円は高すぎませんか？</h3>
               <p className="text-gray-300 leading-relaxed">
-                A: 一般的なナンパスクールの月額制（月額2-5万円×12ヶ月=24-60万円）と比較すると、買い切り制の39.8万円は非常にコスパが良いです。さらに、26万円相当の特典が無料で付いてきます。
+                A: 一般的なナンパスクールの月額制（月額2-5万円×12ヶ月=24-60万円）と比較すると、買い切り制の39.8万円は非常にコスパが良いです。さらに、26万円相当の特典が無料で付いてきます。創設者が200名以上を指導する中で培った「秘密のナンパ術」が含まれています。
               </p>
             </div>
 
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
               <h3 className="text-xl font-bold mb-3">Q: 本当に効果があるのですか？</h3>
               <p className="text-gray-300 leading-relaxed">
-                A: 30日間の成果保証を設けています。30日間、実践を続けても成果が出ない場合、全額返金いたします。リスクはゼロです。また、過去3年間で、返金率はわずか2%です。98%の受講生が成果を実感しています。
+                A: 30日間の成果保証を設けています。30日間、実践を続けても成果が出ない場合、全額返金いたします。リスクはゼロです。また、過去3年間で、返金率はわずか2%です。98%の受講生が成果を実感しています。創設者の実績（渋谷で美女ナンパ成功率100%、講習受講者数200名以上、3ヶ月以内に彼女ができた割合70%以上）に基づいています。
               </p>
             </div>
 
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
               <h3 className="text-xl font-bold mb-3">Q: AIコーチングだけで本当に上達できるのですか？</h3>
               <p className="text-gray-300 leading-relaxed">
-                A: AIコーチングと人間講師のハイブリッドで、24時間365日サポートします。AIコーチングで基礎を学び、人間講師が深いサポートを提供します。受講生の85%が3ヶ月以内に初めての成功を達成しています。
+                A: AIコーチングと人間講師のハイブリッドで、24時間365日サポートします（Pick up labのUSP）。AIコーチングで基礎を学び、人間講師が深いサポートを提供します。受講生の85%が3ヶ月以内に初めての成功を達成しています。創設者も最初は全く声をかけられませんでしたが、試行錯誤を重ね、ナンパ講師として200名以上を指導する中で、このハイブリッド方式の有効性を実感しました。
               </p>
             </div>
 
             <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
               <h3 className="text-xl font-bold mb-3">Q: 初心者でも大丈夫ですか？</h3>
               <p className="text-gray-300 leading-relaxed">
-                A: はい、大丈夫です。Pick up labは、初心者から上級者まで、すべてのレベルの方に対応しています。体系的な学習サイクルで、着実に上達できます。
+                A: はい、大丈夫です。Pick up labは、初心者から上級者まで、すべてのレベルの方に対応しています。体系的な学習サイクル（Pick up labのUSP）で、着実に上達できます。創設者も最初は全く声をかけられませんでしたが、適切なサポートがあれば、誰でも必ず上達できるという信念のもと、サービスを設計しています。
               </p>
             </div>
 
@@ -554,49 +602,71 @@ export default function Home() {
                 A: はい、可能です。3回払い、6回払い、12回払いが可能です。お申し込み時にご選択いただけます。
               </p>
             </div>
+
+            <div className="bg-gray-900 p-6 rounded-xl border border-gray-700">
+              <h3 className="text-xl font-bold mb-3">Q: なぜAIと人間のハイブリッドコーチングなのですか？</h3>
+              <p className="text-gray-300 leading-relaxed">
+                A: 創設者が200名以上を指導する中で、講習だけでは限界があることに気づきました。実践の場面で迷ったとき、深夜に振り返りたいと思ったとき、すぐにサポートを受けられる環境が必要でした。そこで生まれたのが、AIと人間のハイブリッドコーチングというアイデアです。AIが24時間365日サポートし、人間講師が深いサポートを提供する。この組み合わせで、誰でも確実に上達できる環境を作りました。
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* 機能詳細セクション */}
+      {/* 機能詳細セクション - USPの要素を追加 */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             主な機能
           </h2>
+          <p className="text-center text-gray-400 mb-12 text-lg">
+            Pick up labのUSPを実現するための機能です。創設者の経験と実績から生まれました。
+          </p>
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
               <h3 className="text-xl font-bold mb-3">24時間365日対応</h3>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-sm mb-2">
                 AIコーチングがいつでもあなたの上達をサポートします。
+              </p>
+              <p className="text-xs text-gray-500">
+                USP: AIと人間のハイブリッドコーチング
               </p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
               <h3 className="text-xl font-bold mb-3">実践記録の管理</h3>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-sm mb-2">
                 実践記録を入力・管理し、データに基づいた改善提案を受けられます。
+              </p>
+              <p className="text-xs text-gray-500">
+                USP: AI数値分析と改善アクション
               </p>
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg border border-gray-700">
               <h3 className="text-xl font-bold mb-3">人間講師との連携</h3>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-sm mb-2">
                 人間講師とのハイブリッド機能（予約制）で、より深いサポートを受けられます。
+              </p>
+              <p className="text-xs text-gray-500">
+                USP: AIと人間のハイブリッドコーチング
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* お問い合わせ・申し込みセクション */}
+      {/* お問い合わせ・申し込みセクション - ブランドストーリーの要素を追加 */}
       <section id="contact" className="py-20 bg-black">
         <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
             今すぐ始める
           </h2>
-          <p className="text-center text-gray-400 mb-12">
+          <p className="text-center text-gray-400 mb-4 text-lg">
+            創設者が200名以上を指導する中で培った「秘密のナンパ術」を、いつどんな時も使えるように作られたPick up lab。
+          </p>
+          <p className="text-center text-gray-500 mb-12 text-sm">
             期間限定特別価格 ¥398,000（通常価格 ¥1,200,000）
             <br />
             先着50名様限定 | 残り23名様
@@ -605,6 +675,9 @@ export default function Home() {
           <div className="bg-gray-900 p-8 rounded-xl border border-gray-700 mb-8">
             <div className="text-center mb-6">
               <p className="text-2xl font-bold mb-4">総額26万円相当の特典を無料でプレゼント</p>
+              <p className="text-gray-400 mb-4 text-sm">
+                創設者が200名以上を指導する中で培った「秘密のナンパ術」が含まれています
+              </p>
               <ul className="text-left space-y-2 text-gray-300 mb-6">
                 <li className="flex items-center gap-2">
                   <span className="text-green-400">✓</span>
