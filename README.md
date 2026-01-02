@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pick up lab
 
-## Getting Started
+**サービス名**: Pick up lab  
+**タグライン**: 「24時間365日、AIコーチングがあなたの上達をサポートする」  
+**USP**: AIと人間のハイブリッドナンパコーチングを提供する唯一のサービス
 
-First, run the development server:
+## 技術スタック
+
+- **フロントエンド**: Next.js 16+ (App Router), TypeScript, Tailwind CSS
+- **バックエンド**: Next.js API Routes
+- **データベース**: PostgreSQL (Supabase)
+- **ORM**: Prisma
+- **認証**: NextAuth.js
+- **決済**: Utage（サブスクリプション）
+- **AI**: OpenAI API（コーチング、分析、改善アクション生成）
+- **ホスティング**: Vercel
+
+## ドメイン設定
+
+- **ドメイン**: `pickuplab.jp`
+- **ドメイン取得サービス**: お名前.com
+- **ホスティング**: Vercel
+
+詳細は `ドメイン実装手順_pickuplab.jp.md` を参照してください。
+
+## 開発環境のセットアップ
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 環境変数
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`.env.example`を参考に、`.env.local`ファイルを作成してください。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## デプロイ
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Vercelに自動デプロイされます。GitHubリポジトリにプッシュすると、自動的にデプロイが開始されます。
