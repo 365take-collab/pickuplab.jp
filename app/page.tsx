@@ -20,7 +20,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-gray-200 to-white bg-clip-text text-transparent">
               Pick up lab
-            </h1>
+          </h1>
             <p className="text-2xl md:text-3xl text-gray-300 mb-4">
               AIと人間のハイブリッドナンパコーチング
             </p>
@@ -149,33 +149,82 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 創設者の権威性セクション */}
+      {/* ブランドストーリーセクション */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-6 max-w-6xl">
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
-            なぜPick up labなのか？
+            Pick up labが生まれた理由
           </h2>
-          <div className="bg-gray-800 p-8 rounded-xl border border-gray-700 mb-8">
-            <h3 className="text-2xl font-bold mb-4">創設者の実績</h3>
-            <p className="text-gray-300 leading-relaxed mb-4">
-              Pick up labの創設者は、現役のトップナンパ師、ナンパ講師です。
-            </p>
-            <div className="grid md:grid-cols-3 gap-4 mt-6">
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <div className="text-3xl font-bold text-white mb-1">100%</div>
-                <div className="text-gray-400 text-sm">渋谷で美女ナンパ成功率</div>
-              </div>
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <div className="text-3xl font-bold text-white mb-1">200名+</div>
-                <div className="text-gray-400 text-sm">講習受講者数</div>
-              </div>
-              <div className="bg-gray-900 p-4 rounded-lg">
-                <div className="text-3xl font-bold text-white mb-1">70%+</div>
-                <div className="text-gray-400 text-sm">3ヶ月以内に彼女ができた割合</div>
+          
+          <div className="bg-gray-800 p-8 md:p-12 rounded-xl border border-gray-700 mb-8">
+            <div className="max-w-4xl mx-auto">
+              <h3 className="text-3xl font-bold mb-6 text-center">創設者のストーリー</h3>
+              
+              <div className="space-y-6 text-gray-300 leading-relaxed">
+                <p className="text-lg">
+                  私も最初は全く声をかけられませんでした。
+                </p>
+                
+                <p>
+                  街で気になる女性を見かけても、声をかけることすらできず、ただ通り過ぎるだけの日々。何度も「今度こそ声をかけよう」と心に決めても、結局何もできずに帰宅する。そんな自分に嫌気がさしていました。
+                </p>
+                
+                <p>
+                  しかし、ある日、本気で変わりたいと思い、ナンパの世界に飛び込みました。試行錯誤を重ね、失敗を繰り返し、ようやく声をかけられるようになったのは、数ヶ月後のことでした。
+                </p>
+                
+                <p>
+                  その後、ナンパ講師として200名以上の方々を指導する中で、あることに気づきました。
+                </p>
+                
+                <p className="text-xl font-semibold text-white">
+                  「多くの人が同じ壁にぶつかっている。でも、適切なサポートがあれば、誰でも必ず上達できる」
+                </p>
+                
+                <p>
+                  しかし、講習だけでは限界がありました。実践の場面で迷ったとき、深夜に振り返りたいと思ったとき、すぐにサポートを受けられる環境が必要でした。
+                </p>
+                
+                <p>
+                  そこで生まれたのが、<strong className="text-white">AIと人間のハイブリッドコーチング</strong>というアイデアです。
+                </p>
+                
+                <p>
+                  AIが24時間365日、いつでもあなたの上達をサポートし、人間講師が深いサポートを提供する。この組み合わせで、誰でも確実に上達できる環境を作りたい。
+                </p>
+                
+                <p className="text-lg font-semibold text-white">
+                  そんな想いから、Pick up labは生まれました。
+                </p>
               </div>
             </div>
-            <p className="text-gray-300 mt-6 leading-relaxed">
-              そんな彼が限られたクライアントにのみ提供してきた「秘密のメッセージ術」を、いつどんな時も使えるように作られたのがPick up labです。
+          </div>
+
+          {/* 創設者の実績 */}
+          <div className="bg-gray-800 p-8 rounded-xl border border-gray-700">
+            <h3 className="text-2xl font-bold mb-6 text-center">創設者の実績</h3>
+            <p className="text-gray-300 leading-relaxed mb-6 text-center">
+              Pick up labの創設者は、現役のトップナンパ師、ナンパ講師です。
+            </p>
+            <div className="grid md:grid-cols-3 gap-4 mb-6">
+              <div className="bg-gray-900 p-6 rounded-lg text-center">
+                <div className="text-4xl font-bold text-white mb-2">100%</div>
+                <div className="text-gray-400">渋谷で美女ナンパ成功率</div>
+                <div className="text-sm text-gray-500 mt-2">公開で達成</div>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg text-center">
+                <div className="text-4xl font-bold text-white mb-2">200名+</div>
+                <div className="text-gray-400">講習受講者数</div>
+                <div className="text-sm text-gray-500 mt-2">累計指導実績</div>
+              </div>
+              <div className="bg-gray-900 p-6 rounded-lg text-center">
+                <div className="text-4xl font-bold text-white mb-2">70%+</div>
+                <div className="text-gray-400">3ヶ月以内に彼女ができた割合</div>
+                <div className="text-sm text-gray-500 mt-2">受講生の成果</div>
+              </div>
+            </div>
+            <p className="text-gray-300 text-center leading-relaxed">
+              そんな彼が限られたクライアントにのみ提供してきた「秘密のナンパ術」を、いつどんな時も使えるように作られたのがPick up labです。
             </p>
           </div>
         </div>
@@ -184,57 +233,141 @@ export default function Home() {
       {/* USPセクション */}
       <section className="py-20 bg-black">
         <div className="container mx-auto px-6 max-w-6xl">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-center mb-8">
             Pick up labで得られるもの
           </h2>
+          <p className="text-center text-gray-400 mb-16 text-lg">
+            なぜPick up labが選ばれるのか。4つの独自の価値をご紹介します。
+          </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
             {/* USP 1: AIと人間のハイブリッド */}
-            <div className="bg-gray-800 p-8 rounded-xl border border-gray-700">
-              <div className="text-4xl mb-4">🤖</div>
+            <div className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
+              <div className="text-5xl mb-4">🤖</div>
               <h3 className="text-2xl font-bold mb-4">AIと人間のハイブリッドコーチング</h3>
               <p className="text-gray-300 leading-relaxed mb-4">
-                24時間365日、AIコーチングがあなたの上達をサポート。人間講師とのハイブリッド機能で、AIが講師の教え方をサポートし品質を保証します。
+                24時間365日、AIコーチングがあなたの上達をサポート。深夜2時に実践したことを振り返りたいと思ったとき、AIコーチングが24時間対応してくれたおかげで、その日のうちに改善できます。
               </p>
-              <p className="text-green-400 font-semibold">
-                → 24時間365日、いつでもAIコーチングがサポート
+              <p className="text-gray-300 leading-relaxed mb-4">
+                人間講師とのハイブリッド機能で、AIが講師の教え方をサポートし品質を保証。AIコーチングで基礎を学び、人間講師が深いサポートを提供します。
               </p>
+              <div className="bg-gray-900 p-4 rounded-lg mt-4">
+                <p className="text-green-400 font-semibold text-lg">
+                  ✓ 24時間365日、いつでもAIコーチングがサポート
+                </p>
+                <p className="text-green-400 font-semibold text-lg mt-2">
+                  ✓ 人間講師が深いサポートを提供（予約制）
+                </p>
+              </div>
             </div>
 
             {/* USP 2: データドリブンな上達 */}
-            <div className="bg-gray-800 p-8 rounded-xl border border-gray-700">
-              <div className="text-4xl mb-4">📊</div>
+            <div className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
+              <div className="text-5xl mb-4">📊</div>
               <h3 className="text-2xl font-bold mb-4">AI数値分析と改善アクション</h3>
               <p className="text-gray-300 leading-relaxed mb-4">
                 講習→実践→AI数値分析→AI改善アクションの体系化。データに基づいた改善提案で、確実にスキルを向上させます。
               </p>
-              <p className="text-green-400 font-semibold">
-                → 成功率が平均3倍に向上
+              <p className="text-gray-300 leading-relaxed mb-4">
+                実践記録を入力するだけで、AIが自動的に分析し、次のアクションを提案。感覚ではなく、データに基づいた上達が可能です。
               </p>
+              <div className="bg-gray-900 p-4 rounded-lg mt-4">
+                <p className="text-green-400 font-semibold text-lg">
+                  ✓ 成功率が平均3倍に向上
+                </p>
+                <p className="text-green-400 font-semibold text-lg mt-2">
+                  ✓ データに基づいた確実な改善
+                </p>
+              </div>
             </div>
 
             {/* USP 3: 体系的な学習サイクル */}
-            <div className="bg-gray-800 p-8 rounded-xl border border-gray-700">
-              <div className="text-4xl mb-4">🔄</div>
+            <div className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
+              <div className="text-5xl mb-4">🔄</div>
               <h3 className="text-2xl font-bold mb-4">体系的な学習サイクル</h3>
               <p className="text-gray-300 leading-relaxed mb-4">
                 実践記録の入力・管理から、成功事例・失敗事例の体系化まで。継続的な改善サイクルで、着実に上達できます。
               </p>
-              <p className="text-green-400 font-semibold">
-                → 従来の学習時間の半分で上達
+              <p className="text-gray-300 leading-relaxed mb-4">
+                従来のナンパスクールでは、講習を受けて終わり。でもPick up labは、実践→分析→改善→実践のサイクルを継続的に回すことで、確実に上達します。
               </p>
+              <div className="bg-gray-900 p-4 rounded-lg mt-4">
+                <p className="text-green-400 font-semibold text-lg">
+                  ✓ 従来の学習時間の半分で上達
+                </p>
+                <p className="text-green-400 font-semibold text-lg mt-2">
+                  ✓ 継続的な改善サイクルで確実に成長
+                </p>
+              </div>
             </div>
 
             {/* USP 4: コミュニティ機能 */}
-            <div className="bg-gray-800 p-8 rounded-xl border border-gray-700">
-              <div className="text-4xl mb-4">👥</div>
+            <div className="bg-gray-800 p-8 rounded-xl border border-gray-700 hover:border-gray-600 transition-colors">
+              <div className="text-5xl mb-4">👥</div>
               <h3 className="text-2xl font-bold mb-4">コミュニティ機能</h3>
               <p className="text-gray-300 leading-relaxed mb-4">
                 同じ目標を持つ仲間と情報共有。コミュニティ機能で、モチベーションを維持しながら上達できます。
               </p>
-              <p className="text-green-400 font-semibold">
-                → 85%が3ヶ月以内に初めての成功を達成
+              <p className="text-gray-300 leading-relaxed mb-4">
+                一人で頑張るのではなく、仲間と一緒に成長する。成功事例を共有し、失敗から学ぶ。コミュニティがあるから、続けられる。
               </p>
+              <div className="bg-gray-900 p-4 rounded-lg mt-4">
+                <p className="text-green-400 font-semibold text-lg">
+                  ✓ 85%が3ヶ月以内に初めての成功を達成
+                </p>
+                <p className="text-green-400 font-semibold text-lg mt-2">
+                  ✓ 仲間と一緒に成長できる環境
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* なぜPick up labなのか - まとめ */}
+          <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-xl border border-gray-700 mt-12">
+            <h3 className="text-2xl font-bold mb-4 text-center">なぜPick up labなのか？</h3>
+            <div className="grid md:grid-cols-2 gap-6 mt-6">
+              <div>
+                <h4 className="font-bold text-lg mb-3 text-white">従来のナンパスクール</h4>
+                <ul className="space-y-2 text-gray-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-400">✗</span>
+                    <span>講習を受けて終わり</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-400">✗</span>
+                    <span>実践の場面で迷ったとき、サポートがない</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-400">✗</span>
+                    <span>月額制で長期的に費用がかかる</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-red-400">✗</span>
+                    <span>データに基づいた改善ができない</span>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold text-lg mb-3 text-white">Pick up lab</h4>
+                <ul className="space-y-2 text-gray-300">
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-400">✓</span>
+                    <span>講習→実践→分析→改善のサイクルを継続</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-400">✓</span>
+                    <span>24時間365日、AIコーチングがサポート</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-400">✓</span>
+                    <span>買い切り制で、長期的にコスパが良い</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-400">✓</span>
+                    <span>AI数値分析で、データに基づいた改善</span>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
 
