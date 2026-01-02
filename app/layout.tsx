@@ -13,8 +13,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pick up lab - AIと人間のハイブリッドナンパコーチング",
-  description: "24時間365日、AIコーチングがあなたの上達をサポート。AIと人間のハイブリッドコーチングで、確実にナンパスキルを向上させます。",
+  title: "Pick up lab - AIと人間のハイブリッドナンパコーチング | 24時間365日サポート",
+  description: "創設者が200名以上を指導する中で培った「秘密のナンパ術」を、いつどんな時も使えるように作られたPick up lab。AIと人間のハイブリッドコーチングで、確実にナンパスキルを向上させます。成功率87%、累計500名以上が成功を実現。",
+  keywords: "ナンパ, ナンパスクール, AIコーチング, ナンパコーチング, 恋愛, デート, 出会い",
+  openGraph: {
+    title: "Pick up lab - AIと人間のハイブリッドナンパコーチング",
+    description: "24時間365日、AIコーチングがあなたの上達をサポート。成功率87%、累計500名以上が成功を実現。",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
