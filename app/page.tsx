@@ -73,7 +73,7 @@ export default function Home() {
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start gap-2">
                   <span className="text-red-400">✗</span>
-                  <span>返信に悩む時間が増え続ける</span>
+                  <span>声をかけることすらできない日々が続く</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-400">✗</span>
@@ -81,7 +81,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-400">✗</span>
-                  <span>マッチングアプリでの失敗が積み重なる</span>
+                  <span>ナンパでの失敗が積み重なる</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-red-400">✗</span>
@@ -94,7 +94,7 @@ export default function Home() {
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start gap-2">
                   <span className="text-green-400">✓</span>
-                  <span>返信の悩みから解放される</span>
+                  <span>声をかけることへの恐怖から解放される</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400">✓</span>
@@ -102,7 +102,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400">✓</span>
-                  <span>マッチングアプリでの成功体験が積み重なる</span>
+                  <span>ナンパでの成功体験が積み重なる</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-green-400">✓</span>
@@ -197,7 +197,7 @@ export default function Home() {
                 24時間365日、AIコーチングがあなたの上達をサポート。人間講師とのハイブリッド機能で、AIが講師の教え方をサポートし品質を保証します。
               </p>
               <p className="text-green-400 font-semibold">
-                → 返信時間を数分から10秒に短縮
+                → 24時間365日、いつでもAIコーチングがサポート
               </p>
             </div>
 
@@ -268,7 +268,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed mb-4">
-                「3ヶ月で10人と出会えました。AIコーチングのおかげで、確実にスキルが向上しました。返信に悩む時間がなくなり、マッチングアプリでの成功体験が増えました。」
+                「3ヶ月で10名の連絡先を獲得できました。AIコーチングのおかげで、確実にスキルが向上しました。声をかけることへの恐怖がなくなり、ナンパでの成功体験が増えました。」
               </p>
               <div className="text-yellow-400">★★★★★</div>
             </div>
@@ -284,7 +284,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed mb-4">
-                「判断の軸が分かるようになりました。以前は、返信に30分以上かかっていましたが、SendRightを使うようになってから、10秒で返信できるようになりました。」
+                「判断の軸が分かるようになりました。以前は、声をかけることすらできませんでしたが、Pick up labを使うようになってから、自信を持って声をかけられるようになりました。3ヶ月で5名の連絡先を獲得できました。」
               </p>
               <div className="text-yellow-400">★★★★★</div>
             </div>
@@ -300,7 +300,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300 leading-relaxed mb-4">
-                「自信が取り戻せました。マッチングアプリでの成功体験が積み重なり、理想の女性との関係を築けるようになりました。30日間の成果保証も安心でした。」
+                「自信が取り戻せました。ナンパでの成功体験が積み重なり、理想の女性との関係を築けるようになりました。30日間の成果保証も安心でした。」
               </p>
               <div className="text-yellow-400">★★★★★</div>
             </div>
