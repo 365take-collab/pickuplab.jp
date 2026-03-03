@@ -33,6 +33,16 @@ npm install
 npm run dev
 ```
 
+## センシティブワード検索（リポジトリ内限定）
+
+```bash
+# デフォルト（リポジトリ配下を検索）
+bash scripts/scan_sensitive_terms.sh
+
+# 任意のサブディレクトリ・パターン・件数
+bash scripts/scan_sensitive_terms.sh ./app "DPUB|dpub" 20
+```
+
 ## 環境変数
 
 `.env.example`を参考に、`.env.local`ファイルを作成してください。
